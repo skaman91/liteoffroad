@@ -15,14 +15,6 @@
                         <router-link to="/contacts" @click="closeMenu">Контакты</router-link>
                     </nav>
                 </div>
-<!--                <img alt="logo" class="logo" src="./img/logo.png" width="250" height="125" />-->
-<!--                <div class="wrapper">-->
-<!--                    <nav>-->
-<!--                        <router-link to="/">Главная</router-link>-->
-<!--                        <router-link to="/game">Игра "Застрянь друга"</router-link>-->
-<!--                        <router-link to="/contacts">Контакты</router-link>-->
-<!--                    </nav>-->
-<!--                </div>-->
             </div>
         </header>
         <router-view />
@@ -85,7 +77,7 @@ nav {
     cursor: pointer;
     position: absolute;
     margin-top: 1em;
-    right: 20px; /* Прижимает бургер-меню к правому краю */
+    right: 20px;
 }
 
 .burger-menu span {
@@ -171,7 +163,7 @@ nav a:first-of-type {
         text-align: center;
         background-color: #262626;
         position: absolute;
-        top: 45px; /* Отступ вниз от верхней части header */
+        top: 45px;
         left: 0;
         z-index: 10000;
     }

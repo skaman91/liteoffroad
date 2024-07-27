@@ -9,13 +9,14 @@
 
 <script>
 import axios from 'axios';
+import { CHANNEL_ID, GOOGLE_API } from '../../auth/data.mjs'
 
 export default {
   data() {
     return {
       videos: [],
-      apiKey: 'AIzaSyCetuE5lVAZy2iuAavS-p68gMJE5D6JGXE', // Замените на ваш ключ API YouTube
-      channelId: 'UCemdsZKI6DDswhD9lsWmorA'    // Замените на ваш ID канала YouTube
+      apiKey: GOOGLE_API,
+      channelId: CHANNEL_ID
     };
   },
   mounted() {

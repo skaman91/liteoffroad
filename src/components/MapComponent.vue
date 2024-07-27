@@ -114,7 +114,7 @@ export default {
 
     background-size: contain;
     background-repeat: no-repeat;
-    margin-right: 100px;
+    margin: -15px;
     width: 60px;
     height: 95px;
 }
@@ -126,5 +126,10 @@ export default {
     color: black;
     font-size: 14px;
     font-weight: bold;
+    height: 1.7em;
+    width: 1.7em;
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
 }
 </style>
